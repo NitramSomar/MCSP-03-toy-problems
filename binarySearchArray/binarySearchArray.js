@@ -11,12 +11,12 @@
  */
 
 var binarySearch = function(array, target) {
-  var leftArr = array.slice(0, array.length / 2 + 1);
-  var rightArr = array.slice(array.length / 2);
-  console.log(leftArr)
-  console.log(rightArr)
-  if (target === lefttArr.length-1) {
-    return leftArr
+  var front = 0;
+  var last = array.length - 1;
+  var middle = front + last /2
+  console.log(middle)
+  if (target === lefttArr[2]) {
+    return 
   }
 };
 
